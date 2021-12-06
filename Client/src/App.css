@@ -1,0 +1,85 @@
+/* Global */
+
+/* reset link styles */ 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+/* Filters and projects */
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item.active {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.list-group-item-action:hover {
+  background-color: #9becae;
+}
+
+.projects-title {
+  margin-top: 2rem;
+}
+
+
+.important {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.notbold {
+  font-weight: normal;
+}​
+
+/* it is not used */
+.dummy {
+  color: black;
+}
+
+.fixed-right-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50%;
+}
+
+
+.fixed-right {
+  position: absolute;
+  right: 0;
+  z-index: 1030;
+  border-radius: 5px;
+  margin: 10px 18px;
+  cursor: pointer;
+}
+
+.fixed-right2 {
+  position: absolute;
+  right: 0;
+  z-index: 1030;
+  border-radius: 5px;
+  margin: 60px 18px;
+  cursor: pointer;
+}
+
+.toast {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
